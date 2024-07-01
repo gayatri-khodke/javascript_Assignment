@@ -5,6 +5,10 @@ function addanagram(arr){
     for(let i=0;i<arr.length;i++){
             a.push(arr[i].split('').sort().join(''));
     }
-    return a;
+    let result=[];
+    let k=[];
+    for(let j=0;j<arr.length;j++){
+        
+    }
 }
 console.log(addanagram(arr));
